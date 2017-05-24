@@ -1,0 +1,120 @@
+
+/* header */  
+
+  .navbar-nav > li > a{font-family: 'Roboto', sans-serif; !important;
+}
+  .navbar-default {
+    background-color:#fff !important;}
+  h2 {
+      font-size: 24px;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+  
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+  .navbar {
+      margin-bottom: 0;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: 'Roboto', sans-serif;
+      box-shadow: 0 0 3px hsl(0, 0%, 20%) !important;
+      border-top: 8px solid #62c44d;
+  }
+  .navbar li{padding: 0 10px;}
+  .navbar li a{border-bottom: 2px solid #fff;}
+  .navbar li a, .navbar .navbar-brand {
+      color: #6a6a6a !important;
+      font-size: 16px;
+  }
+  .navbar-brand {padding: 5px 0 0 10px !important;}
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #62c44d !important;
+      border-bottom: 2px solid #62c44d; 
+      background-color: transparent !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+
+ .container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+/* footer */
+
+.footer-bottom {
+  background: #606060;
+  border-top: 1px solid #DDDDDD;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+.right-footer{float: left;width: 40%;}
+.right-footer ul{float: right;}
+.right-footer ul li{display: inline-block;}
+.left-footer{float: left;width: 60%;}
+.footer-bottom  p{color: #fff;}
+.footer-bottom p {
+  padding-top: 6px;
+}
+.payments {
+  color: #fff;
+}
+.payments ul li{padding:0 5px;color: #fff;}
+.payments li a{color: #fff;}
+.payments li a:hover, .payments li a:focus{background-color: transparent;outline:none;}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+     .navbar #myNavbar li{padding: 0 8px !important;}
+  }
+
+
+@media screen and (max-width: 767px) {
+    .left-footer{width: 100%;}
+    .left-footer p{text-align: center;}
+    .right-footer{width: 100%;}
+    .right-footer ul{text-align: center;width: 100%;}
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+      border-color:transparent;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }

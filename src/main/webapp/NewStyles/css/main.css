@@ -1,0 +1,7 @@
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; min-width: 374px;}
+.autocomplete-suggestion { padding: 5px 5px; white-space: nowrap; overflow: hidden; font-size:14px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #3399FF; }
+/* textarea, input { outline: none; resize: none;-webkit-appearance: none;} */
+.likesRow a, .likesRow a:hover{text-decoration: none;}
+.pi-img-wrapper{border:1px solid #d7d7d7; margin-bottom: 5px;}

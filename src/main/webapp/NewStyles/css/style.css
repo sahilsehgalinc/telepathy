@@ -1,0 +1,351 @@
+ 
+ body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+
+/* ========================= Home Carousel Styles ===============================*/
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 430px
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    opacity: 1;
+  filter: alpha(opacity=100);
+  background-image: none;
+  background-repeat: no-repeat;
+  text-shadow: none;
+}
+
+.carousel-control.left span {
+  padding: 15px;
+}
+
+.carousel-control.right span {
+  padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+  position: absolute;
+  top: 45%;
+  z-index: 5;
+  display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+  left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+  right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+  background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+  opacity: .7;
+  filter: alpha(opacity=70);
+}
+.banner-text{position: absolute;top:30px;color: #fff;font-size: 28px;}
+.banner-text p{line-height: 42px;}
+.banner-text span{font-weight:bold;}
+.p0{padding: 0;}
+
+
+
+
+
+/*.pie-chart-explain {margin-top:105px;}*/
+
+/*.my-legend .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 90%;
+    }
+  .pie-chart-explain  .legend-scale{float: left;width: 100%;}
+  .my-legend .legend-scale ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    float: left;
+    list-style: none;
+    width: 100%;
+    }
+  .my-legend .legend-scale ul li {
+    font-size: 14px;
+    list-style: none;
+    margin-left: 0;
+    line-height: 25px;
+    margin-bottom: 20px;
+    }
+  .my-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 20px;
+    margin: 3px 10px;
+    width: 20px;
+    }*/
+.right-side{margin-top: 60px;}
+  
+
+
+
+
+
+
+
+
+.your-imformation{float: left;width: 100%;}
+.your-imformation1{float: left;width: 100%;display: none;}
+.cmpny-name{margin-top: 20px;float:left;width:100%;}
+.cmpny-name p{float: left;}
+
+ .cmpny-name #company{
+     width: 100%;
+     padding: 14px 10px;
+     border-radius: 5px;
+     border:1px solid #939393;
+     margin-bottom: 10px;
+     float: left;
+   }  
+.cmpny-name ul{float: left;width: 100%;}
+.cmpny-name ul li{
+     border:1px solid #939393;
+     padding: 14px 10px;
+}
+.cmpny-name ul input{border:1px solid #939393;
+     padding: 14px 10px;
+     border-radius: 5px;
+     width: 100%;
+     font-style:italic;
+   }
+.cmpny-name ul li span{color:#62c44d;font-weight: 600;}
+.main-box{margin: 0 0 30px 0;}
+.calculate-btn{width: 100%;}
+
+.calculate-btn button{
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #62c44d;
+      padding: 12px 14px;
+      background-color:#62c44d;
+      text-transform: uppercase;
+        }
+
+.calculate-btn button:hover, .calculate-btn button:active, .calculate-btn button:focus{
+      background-color:#3f902e;
+      color: #fff;
+      border: 1px solid #3f902e;
+      outline: none;
+        }
+
+
+
+/*======================= terms of use page ========================================*/
+
+.terms-data{width: 100%;
+            float: left;
+            background-color: #fff;
+            box-shadow: 0 1px 2px 0 hsla(0, 0%, 0%, 0.08);
+            border: 1px solid hsl(0, 0%, 91%);
+            border-radius: 6px;
+            margin: 3rem auto;
+            max-width: 80em;
+            padding: 3rem 2rem 2rem;
+            position: relative;
+            }
+.terms-data ol, .terms-data ul{margin: 0;}
+
+
+/*======================= terms of use page end ========================================*/
+
+
+/*======================= modal popup ========================================*/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 320px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  margin-bottom: 10px;
+  position: relative;
+  border-radius:5px;
+  width:150px;
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: hsl(109, 50%, 54%);
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  width:100px;
+  border-radius:5px;
+}
+
+.loginmodal-submit:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+   background-color:#3f902e;
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+.login-help{
+  font-size: 12px;
+}
+.validated-popup{margin:260px auto;}
+.validate-btn{text-align:center;}
+
+
+/*======================= modal popup end ========================================*/
+
+
+
+/*======================= loader css ========================================*/
+
+.loadText{
+    font-family: Arial;
+    color:#000;
+	font-size: 30px;
+}
+.preloader{
+    background-color:rgba(0,0,0,0.6);
+    height: 100%;
+	padding-top: 60px;
+	margin-left: -20px;
+	margin-top: 80px;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+
+
+
+
+
+
+@keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 980px) {
+    .pie-chart{float: left;width: 100%;}
+  }
+
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+  }
+
+  @media screen and (max-width: 480px) {
+    .banner-text{top:7px;}
+    .banner-text p{
+      font-size: 18px;
+    line-height: 22px;
+    }
+    
+  }
+
+  @media screen and (max-width: 320px) {
+  
+  .banner-text {
+    top: 3;
+}
+  .banner-text p {
+    font-size: 15px;
+    line-height: 20px;
+}
+.validated-popup{margin:220px auto;}
+.loginmodal-container {
+  max-width: 280px;
+}
+
+  }
+
+
+
+
+
+
+  
+  

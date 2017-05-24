@@ -1,0 +1,99 @@
+.onoffswitch {
+    position: relative; /*width: 100px;*/
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none; float: left;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.p0{padding:0 !important;}
+.sw-btn{    float: left;
+    width: auto;
+    background-color: transparent;
+    padding: 5px 30px;}
+    .text-all{padding:0 20px 0 10px !important; font-weight: 600 !important}
+/*.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 20px; padding: 0; line-height: 20px;
+    border: 0px solid #FFFFFF; border-radius: 30px;
+    background-color: #9E9E9E;
+}*/
+.onoffswitch{margin-top: 5px; margin-left: 12px}
+label.onoffswitch-label{max-width: auto !important}
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 15px;
+    padding: 0;
+    line-height: 20px;
+    border: 0px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: #9E9E9E;
+    width: 66px;
+    margin-left: -10px;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 22px; height: 22px; margin: -6px 0px;
+    background: #EBEBEB;
+    position: absolute; top: 2px; bottom: 0;
+    right: 60px;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px 0px #757575;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-label1:before {
+    content: "";
+    display: block; width: 30px; height: 30px; margin: -6px 0px;
+    background: #EBEBEB;
+    position: absolute; top: 0; bottom: 0;
+    right: 90px !important;
+    border-radius: 30px;
+    box-shadow: 0 6px 12px 0px #757575;
+    transition: all 0.3s ease-in 0s;
+}
+
+
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #627A6B;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    border-color: #627A6B;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px;
+    background-color: #1BB015;
+    box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+    .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.activeGreen:focus{color: #fff !important}
+.SwitchbuttonOuter{background-color: #efece6; padding: 5px 20px; float: left; margin:0; text-align: center;}
+.clear10{width: 100%; float: left; height: 10px}
+.SwitchbuttonOuter  span{color: #888; font-size:20px }
+.bootstrap-switch{width: 100px !important; height: 20px !important}
+.off{float: left;
+    padding: 9px 0px;
+    font-size: 16px;
+    font-weight: 600; margin-left: -50px
+}
+.plan-bg{
+    background: rgba(0, 0, 0, 0) url("../img/img4.jpg") no-repeat scroll 0 0 / cover ;
+    float: left;
+    padding: 20px 0;
+    width: 100%;
+}
+.font-2{font-family: 'Raleway', sans-serif !important;}
+    .price_card { transition: all 0.3s ease 0s;}
+.cutsomP:hover > .price_card {border: 1px solid #4ec67f;
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.3); transition: all 0.3s ease 0s; cursor: pointer;}
